@@ -1,0 +1,13 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Temp / debug files (ne jamais publier)
+seed_admin.php
+make_hash.php
+debug_login.php
+test_pdo.php
