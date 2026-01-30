@@ -42,7 +42,8 @@
           <td><?= htmlspecialchars($c['nom']) ?></td>
           <td><?= htmlspecialchars($c['email']) ?></td>
           <td><?= htmlspecialchars((string)$c['telephone']) ?></td>
-          <td><a href="edit_client.php?id=<?= (int)$c['id']?>">Modifier</td>
+          <td><a href="edit_client.php?id=<?= (int)$c['id']?>">Modifier</a> ou 
+          <a href="delete_client.php?id=<?= (int)$c['id']?>" onclick="return confirm('Supprimer ce client ?');">Supprimer</a>
         </tr>
       <?php endforeach; ?>
     </table>
