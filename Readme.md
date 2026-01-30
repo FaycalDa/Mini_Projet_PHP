@@ -5,7 +5,7 @@ Mini application PHP/MySQL avec authentification et gestion de clients.
 ## -Fonctionnalités
 - Authentification (login/logout) via sessions
 - Protection des pages (accès réservé)
-- Clients : liste / ajout / modification
+- Clients : liste / ajout / modification /suppression
 
 ## -Stack
 - PHP 8
@@ -36,3 +36,7 @@ Mot de passe : Admin123!
 ### Modifier un client
 
 ![Modifier](screenshots/edit_clients.png)
+
+### Supprimer un client
+
+![Supprimer](screenshots/delete_clients.png)
